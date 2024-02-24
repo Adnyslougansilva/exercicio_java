@@ -24,6 +24,5 @@ public class MetodoSemRetorno {
     public static void metodoCinco(){
         System.out.println("metodoCinco");
     }
-
 }
 

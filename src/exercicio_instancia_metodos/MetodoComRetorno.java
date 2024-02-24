@@ -8,7 +8,6 @@ public class MetodoComRetorno {
         System.out.println(metodoTresComRetorno());
         System.out.println(metodoQuatroComRetorno());
         System.out.println(metodoCincoComRetorno());
-
     }
 
     public static String metodoUmComRetorno(){
