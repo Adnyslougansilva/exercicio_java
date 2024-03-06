@@ -3,21 +3,19 @@ package medium;
 import javax.swing.*;
 
 public class Exercicio02_medium {
-    public static void main(String[] args) {
+    public double calcularInvestimentoJurosCompostos(double valorInvestimento) {
 
-            double valorInvestido = Double.parseDouble(JOptionPane.showInputDialog("Insira o valor do Investimento!"));
-            double valorAcumulado = valorInvestido;
-            double valorJuros = 0;
+            int tempoInvestimento = 10;
+            double valorTotal = 0.0;
             double taxaJuros = 0.12;
+            valorTotal = valorInvestimento;
 
-            for (int i = 0; i < 10; i++) {
-                double juros = valorAcumulado * taxaJuros;
-                valorJuros = valorJuros + juros;
-                valorAcumulado = valorAcumulado + juros;
+            for (int i = 0; i < tempoInvestimento; i++) {
+                valorTotal = (valorTotal * taxaJuros) + valorTotal;
             }
-            System.out.println("Valor total com juros por 10 Anos é R$ " + valorAcumulado);
-            System.out.println("O Valor de Juros por 10 Anos é R$ " + valorJuros);
-            System.out.println("O Valor inicial investido foi de R$ " + valorInvestido);
-
+            return valorTotal;
+    }
+    public double calcularValorDosJuros(double valorTotal, double valorInvestido){
+        return (valorTotal - valorInvestido);
     }
 }
