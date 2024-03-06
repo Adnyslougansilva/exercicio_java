@@ -44,7 +44,15 @@ public class ExecucaoExercicios {
 //        System.out.println("O Imposto de renda devido será de: " + impostoRenda);
 //        System.out.println("O Salario liquido será de: " + (salario - impostoRenda));
 
-        Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
-        exercicio09_easy.calculaExibeTabuada(10);
+//        Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
+//        exercicio09_easy.calculaExibeTabuada(10);
+
+        double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
+        Exercicio10_easy exercicio10_easy = new Exercicio10_easy();
+        double valorTotal = exercicio10_easy.calcularInvestimentoJurosSimples((valorInvestimento));
+        System.out.println("Valor Investido: "+valorInvestimento);
+        System.out.println("Valor Total: "+ valorTotal);
+        System.out.println("Taxa de juros acumulada: "+ exercicio10_easy.calcularValorDeJuros(valorTotal, valorInvestimento));
+
   }
 }
