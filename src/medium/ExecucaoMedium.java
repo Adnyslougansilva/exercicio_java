@@ -25,8 +25,13 @@ public class ExecucaoMedium {
 //        Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
 //        exercicio04_medium.multiplicaAteMilIteracoes();
 
-          int [] vetorNumeros = {2,3,4,5,1,4};
-          Exercicio05_medium exercicio05_medium = new Exercicio05_medium();
-          System.out.println(exercicio05_medium.retornaMenorNumero(vetorNumeros));
+//          int [] vetorNumeros = {2,3,4,5,1,4};
+//          Exercicio05_medium exercicio05_medium = new Exercicio05_medium();
+//          System.out.println(exercicio05_medium.retornaMenorNumero(vetorNumeros));
+
+        int numeroFatorialDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero inteiro, para calcular o fatorial"));
+        Exercicio06_medium exercicio06_medium = new Exercicio06_medium();
+        System.out.println("O fatorial do nosso numero digitado é:" + exercicio06_medium.calculaFatorial(numeroFatorialDigitado))
+        ;
     }
 }
