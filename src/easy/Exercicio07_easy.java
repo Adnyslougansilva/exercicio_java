@@ -1,11 +1,9 @@
 package easy;
 
-import javax.swing.*;
-
 public class Exercicio07_easy {
 
-    public static void main(String[] args) {
-        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digitar Salario"));
+    public double calcularInss(double salario) {
+
         double inss = 0;
         if (salario <= 1320.00) {
             inss = salario * 0.075;
@@ -21,7 +19,7 @@ public class Exercicio07_easy {
         if (salario > 7507.49){
             inss = 1051.04;
         }
-        System.out.println("O inss a ser pago é de: " + inss);
+        return inss;
     }
 }
 
