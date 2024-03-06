@@ -3,9 +3,7 @@ package easy;
 import javax.swing.*;
 
 public class Exercicio09_easy {
-    public static void main(String[] args) {
-
-        int tabuada = Integer.parseInt(JOptionPane.showInputDialog("Informe um Número de 1 Até 10!"));
+    public void  calculaExibeTabuada(int tabuada) {
 
         if (tabuada <= 0 || tabuada > 10) {
             System.out.println("Número inválido!");
