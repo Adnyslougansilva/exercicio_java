@@ -22,7 +22,11 @@ public class ExecucaoMedium {
 //        Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
 //        exercicio03_medium.somaAteMil();
 
-        Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
-        exercicio04_medium.multiplicaAteMilIteracoes();
+//        Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
+//        exercicio04_medium.multiplicaAteMilIteracoes();
+
+          int [] vetorNumeros = {2,3,4,5,1,4};
+          Exercicio05_medium exercicio05_medium = new Exercicio05_medium();
+          System.out.println(exercicio05_medium.retornaMenorNumero(vetorNumeros));
     }
 }
