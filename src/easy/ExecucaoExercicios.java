@@ -18,14 +18,19 @@ public class ExecucaoExercicios {
 //        int numeroDigitado = Integer.valueOf(JOptionPane.showInputDialog("Digite um numero inteiro!"));
 //        System.out.println("O Dobro do numero é  = " + exercicio04_easy.calcularDobro(numeroDigitado));
 
-        int num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Primeiro Número Inteiro!"));
-        int num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Segundo Número Inteiro!"));
-        int num3 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Terceiro Número Inteiro!"));
+//        int num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Primeiro Número Inteiro!"));
+//        int num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Segundo Número Inteiro!"));
+//        int num3 = Integer.parseInt(JOptionPane.showInputDialog("Digite o Terceiro Número Inteiro!"));
+//
+//        Exercicio05_easy exercicio05_easy = new Exercicio05_easy();
+//        System.out.println("A soma dos números é: " + exercicio05_easy.calcularSoma(num1, num2, num3));
+//        System.out.println("A subtração dos números é: " + exercicio05_easy.calcularSubtrair(num1, num2, num3));
+//        System.out.println("A multiplicação dos números é: " + exercicio05_easy.calcularMultiplicar(num1, num2, num3));
+//        System.out.println("A Média dos números é: " + exercicio05_easy.calcularMedia(num1, num2, num3));
 
-        Exercicio05_easy exercicio05_easy = new Exercicio05_easy();
-        System.out.println("A soma dos números é: " + exercicio05_easy.calcularSoma(num1, num2, num3));
-        System.out.println("A subtração dos números é: " + exercicio05_easy.calcularSubtrair(num1, num2, num3));
-        System.out.println("A multiplicação dos números é: " + exercicio05_easy.calcularMultiplicar(num1, num2, num3));
-        System.out.println("A Média dos números é: " + exercicio05_easy.calcularMedia(num1, num2, num3));
+        double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Digite a Primeira Nota!"));
+        double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Digite a Segunda Nota!"));
+        Exercicio06_easy exercicio06_easy = new Exercicio06_easy();
+        System.out.println(exercicio06_easy.verificaAprovacaoAluno(nota1, nota2));
   }
 }
