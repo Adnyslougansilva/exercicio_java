@@ -47,12 +47,17 @@ public class ExecucaoExercicios {
 //        Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
 //        exercicio09_easy.calculaExibeTabuada(10);
 
-        double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
-        Exercicio10_easy exercicio10_easy = new Exercicio10_easy();
-        double valorTotal = exercicio10_easy.calcularInvestimentoJurosSimples((valorInvestimento));
-        System.out.println("Valor Investido: "+valorInvestimento);
-        System.out.println("Valor Total: "+ valorTotal);
-        System.out.println("Taxa de juros acumulada: "+ exercicio10_easy.calcularValorDeJuros(valorTotal, valorInvestimento));
+//        double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido"));
+//        Exercicio10_easy exercicio10_easy = new Exercicio10_easy();
+//        double valorTotal = exercicio10_easy.calcularInvestimentoJurosSimples((valorInvestimento));
+//        System.out.println("Valor Investido: "+valorInvestimento);
+//        System.out.println("Valor Total: "+ valorTotal);
+//        System.out.println("Taxa de juros acumulada: "+ exercicio10_easy.calcularValorDeJuros(valorTotal, valorInvestimento));
+
+
+        int numeroInt = Integer.parseInt(JOptionPane.showInputDialog("Insira um numero inteiro"));
+        Exercicio11_easy exercicio11_easy = new Exercicio11_easy();
+        exercicio11_easy.somaDoisAoNumeroDigitado(numeroInt);
 
   }
 }

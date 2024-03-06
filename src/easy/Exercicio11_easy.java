@@ -3,11 +3,9 @@ package easy;
 import javax.swing.*;
 
 public class Exercicio11_easy {
-    public static void main(String[] args) {//Inicio main
+    public void somaDoisAoNumeroDigitado(int numeroInt) {//Inicio main
 
-        int numeroInt = Integer.parseInt(JOptionPane.showInputDialog("Insira um numero inteiro"));
         int soma = 2;
-
         for (int i = 0; i <= 99; i++) {
             numeroInt = numeroInt + soma;
             System.out.println("Iteração: " + i + " - valor: " + numeroInt);
