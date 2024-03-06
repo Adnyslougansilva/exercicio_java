@@ -1,5 +1,7 @@
 package medium;
 
+import easy.Exercicio04_easy;
+
 import javax.swing.*;
 
 public class ExecucaoMedium {
@@ -17,7 +19,10 @@ public class ExecucaoMedium {
 //        System.out.println("O Valor total com Juros foi de R$ " + valorTotal);
 //        System.out.println("O Valor de juros foi de R$ " + exercicio02_medium.calcularValorDosJuros(valorTotal, valorInvestimento));
 
-        Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
-        exercicio03_medium.somaAteMil();
+//        Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
+//        exercicio03_medium.somaAteMil();
+
+        Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
+        exercicio04_medium.multiplicaAteMilIteracoes();
     }
 }

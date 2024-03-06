@@ -1,7 +1,8 @@
 package medium;
 
 public class Exercicio04_medium {
-    public static void main(String[] args) {
+    public void multiplicaAteMilIteracoes() {
+
         int resultado = 1;
         for (int i = 1; i <= 1000; i++) {
             resultado *= i;
