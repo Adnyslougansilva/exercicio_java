@@ -3,9 +3,8 @@ package easy;
 import javax.swing.*;
 
 public class Exercicio08_easy {
-    public static void main(String[] args) {// inicio main
+    public double calcularIr(double salario) {// inicio main
 
-        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o salario bruto"));
         double impostoRenda = 0.0;
         double aliquotaImposto = 0.0;
         double deducaoImposto = 0.0;
@@ -20,7 +19,6 @@ public class Exercicio08_easy {
             if (salario == 2112.01) {
                 impostoRenda = 0.0;
             }
-
         }
         if (salario >= 2826.66 && salario <= 3751.05) {
             aliquotaImposto = 0.15;
@@ -37,9 +35,7 @@ public class Exercicio08_easy {
             deducaoImposto = 884.96;
             impostoRenda = (salario * aliquotaImposto) - deducaoImposto;
         }
-        System.out.println("O Salario bruto será de: " + salario);
-        System.out.println("O Imposto de renda devido será de: " + impostoRenda);
-        System.out.println("O Salario liquido será de: " + (salario - impostoRenda));
+        return impostoRenda;
 
     }// fim main
 }// fim da classe
