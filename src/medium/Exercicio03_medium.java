@@ -1,7 +1,7 @@
 package medium;
 
 public class Exercicio03_medium {
-    public static void main(String[] args) {
+    public void somaAteMil() {
 
         int somar = 0;
         for (int i = 0; i <= 1000; i++) {
