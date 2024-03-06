@@ -33,7 +33,13 @@ public class ExecucaoMedium {
 //        Exercicio06_medium exercicio06_medium = new Exercicio06_medium();
 //        System.out.println("O fatorial do nosso numero digitado é:" + exercicio06_medium.calculaFatorial(numeroFatorialDigitado));
 
-          Exercicio07_medium exercicio07_medium = new Exercicio07_medium();
-          exercicio07_medium.exibirMesesDoAno();
+//          Exercicio07_medium exercicio07_medium = new Exercicio07_medium();
+//          exercicio07_medium.exibirMesesDoAno();
+
+        String [] nomeAlunos = {"Adnys", "Adriana", "Flavio", "Valeria", "Jesse"};
+        Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+        int [] numeroAlunos = exercicio09_medium.atribuirNumeracaoAlunos(nomeAlunos);
+        exercicio09_medium.exibirNomeNumeracao(nomeAlunos, numeroAlunos);
+
     }
 }
